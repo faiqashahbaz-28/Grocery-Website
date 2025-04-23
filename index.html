@@ -4,8 +4,268 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+        <div class="nav_bar">
+            <a><img id="logo" alt= "logo" src="c:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\logo web.svg"></a>
+            <div class="nav_items">
+                <a class="link">Home</a>
+                <a class="link">All Product</a>
+                <i class="fa-solid fa-cart-shopping" style="color: #4fbf8b;"></i>
+                <button class="login">Login</button>
+            </div>
+        </div>
+        <hr style="font-weight:lighter;color:#364153;">
+        <div class="hero">
+            <div class ="main_sec">
+            <div class="shop_now">
+                 <img id="bg_img" src="c:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\background 2.png">
+                 <div class="heading">
+                    <h1>Freshness You Can Trust, Savings You will Love!</h1>
+                  <div class="head_btns">
+                    <a class="shop_btn">Shop Now</a>
+                    <a class="explore_btn">Explore Deals<i class="fa-solid fa-arrow-right" style="color: #364153;"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="categories">
+                <h2>Categories</h2>
+                <div class="cat_items">
+                    <div class="box" id="box0">
+                        <img src="c:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\pasta-spaghetti-vegetables-spices-isolated-white.jpg">
+                        <p>Various Pastas</p>
+                    </div>
+                    <div class="box" id="box1">
+                        <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\fresh fruits.png">
+                        <p>Fresh Fruits</p>
+                    </div>
+                    <div class="box" id="box2">
+                        <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\dairy-products.png">
+                        <p>Dairy Products</p>
+                    </div>
+                    <div class="box" id="box3">
+                        <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\veges.png">
+                        <p>Organic Veggies</p>
+                    </div>
+                    <div class="box" id="box4">
+                        <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\grains.png">
+                        <p>Grains & Cereals</p>
+                    </div>
+                    <div class="box" id="box5">
+                        <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\bread.png">
+                        <p>Bakery Items</p>
+                    </div>
+                    <div class="box"id="box6">
+                        <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\aromatic-spices-cinnamon-star-anise-turmeric-chili-peppercorns-cooking-ingredients.png">
+                        <p>Multiple Spices</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sellers">
+                <h2>Best Sellers</h2>
+                <div class="seller_veges">
+                    <div class="item">
+                        <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\carrots.png">
+                        <p id="veggies">Vegetables</p>
+                        <p id="veg_name">Carrots 500g</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                            <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                            <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                            <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                            <i class="fa-regular fa-star" style="color: #4fbf8b;"></i>
+                            <p>(4)</p>
+                        </div>
+                        <div class="add-to-cart">
+                        <p id="price">$44</p>
+                        <p id="disc-price">$50</p>
+                        <button id="cart_btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: #4fbf8b;"></i>Add    
+                        </button>
+                        </div>
+                    </div>
+
+
+                <div class="item">
+                    <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\potatoes.png">
+                    <p id="veggies">Vegetables</p>
+                    <p id="veg_name">Potato 500g</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-regular fa-star" style="color: #4fbf8b;"></i>
+                        <p>(4)</p>
+                    </div>
+                    <div class="add-to-cart">
+                    <p id="price">$35</p>
+                    <p id="disc-price">$40</p>
+                    <button id="cart_btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: #4fbf8b;"></i>Add    
+                    </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\spinach.png">
+                    <p id="veggies">Vegetables</p>
+                    <p id="veg_name">Spinach 500g</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-regular fa-star" style="color: #4fbf8b;"></i>
+                        <p>(4)</p>
+                    </div>
+                    <div class="add-to-cart">
+                    <p id="price">$15</p>
+                    <p id="disc-price">$18</p>
+                    <button id="cart_btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: #4fbf8b;"></i>Add    
+                    </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\onions.png">
+                    <p id="veggies">Vegetables</p>
+                    <p id="veg_name">Onions 500g</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-regular fa-star" style="color: #4fbf8b;"></i>
+                        <p>(4)</p>
+                    </div>
+                    <div class="add-to-cart">
+                    <p id="price">$45</p>
+                    <p id="disc-price">$50</p>
+                    <button id="cart_btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: #4fbf8b;"></i>Add    
+                    </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\tomatoes.png">
+                    <p id="veggies">Vegetables</p>
+                    <p id="veg_name">Tomato 1kg</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-solid fa-star" style="color: #4fbf8b;"></i>
+                        <i class="fa-regular fa-star" style="color: #4fbf8b;"></i>
+                        <p>(4)</p>
+                    </div>
+                    <div class="add-to-cart">
+                    <p id="price">$28</p>
+                    <p id="disc-price">$30</p>
+                    <button id="cart_btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: #4fbf8b;"></i>Add    
+                    </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="C:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\banner.png">
+                <div class="best_points">
+                    <h1 style="color: #4fbf8b; margin-left: 1rem;">Why We Are The Best?</h1>
+                    <div class="point"id="point1">
+                        <img src="https://greencart-gs.vercel.app/assets/delivery_truck_icon-1jAFohyB.svg">
+                        <div class="details">
+                            <h3>Fastest Delivery</h3>
+                            <p>Groceries delivered in under 30 minutes</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img src="https://greencart-gs.vercel.app/assets/leaf_icon-CSYCE1ol.svg">
+                        <div class="details">
+                            <h3>Fastest Delivery</h3>
+                            <p>Groceries delivered in under 30 minutes</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img src="https://greencart-gs.vercel.app/assets/coin_icon-D_msmGb0.svg">
+                        <div class="details">
+                            <h3>Fastest Delivery</h3>
+                            <p>Groceries delivered in under 30 minutes</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <img src="https://greencart-gs.vercel.app/assets/trust_icon-B9jiLsCp.svg">
+                        <div class="details">
+                            <h3>Fastest Delivery</h3>
+                            <p>Groceries delivered in under 30 minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="email_sec">
+                <h1>Never Miss a Deal!</h1>
+                <p>Subscribe to get the latest offers, new arrivals, and exclusive discounts</p>
+                <div class="entr_email">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer_items">
+                <div class="about">
+                    <img id="logo" alt= "logo" src="c:\Users\NAWAZ\Desktop\My website\NEW website\images for grocery website\logo web.svg">
+                    <p>We deliver fresh groceries and snacks straight to your door. Trusted by thousands,
+                         we aim to make your shopping experience simple and affordable.</p>
+                </div>
+                <div class="footer_lists">
+                    <div class="links">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>Home</li>
+                            <li>Best Sellers</li>
+                            <li>Offers & Deals</li>
+                            <li>Contact us</li>
+                            <li>FAQs</li>
+                        </ul>
+                    </div>
+                    <div class="help">
+                        <h2>Need Help?</h2>
+                        <ul>
+                            <li>Delivery Information</li>
+                            <li>Return & Refund Policy</li>
+                            <li>Payment Methods</li>
+                            <li>Track your Order</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="follow">
+                        <h2>Follow Us</h2>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Facebook</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </div>
+        <hr>
+        <div class="copright">
+            <p>Copyright 2025 © . All Right Reserved.</p>
+            </div>
+        </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
