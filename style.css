@@ -5,6 +5,8 @@
     box-sizing: border-box;
     line-height: inherit;
 }
+
+/*navigation bar styling*/
 .nav_bar{
     padding: 16px 64px;
     display: flex;
@@ -56,6 +58,207 @@
     font-size: 1.5rem;
 }
 
+/*login form styling*/
+.login_display{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5));
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:2;
+}
+.display_hidden{ 
+    display: none;   
+} 
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    width:fit-content ;
+    padding: 48px 32px;
+    gap: 0.7rem;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    z-index: 1;
+    border-radius: 0.7rem;
+}
+.login_hidden{
+    display: none;
+}
+#top_text{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 38px;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    color: #364153;
+    font-weight: 600;
+}
+.user_text{
+    color: #4fbf8b;
+}
+.email{
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.email p{
+    font-size:0.9rem ;
+    font-weight: 500;
+}
+#email_id{
+    min-width: 16rem;
+    padding: 10px 12px;
+    border-radius: 0.4rem;
+    border: 0.8px solid #96989b;
+}
+.password{
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+}
+.password p{
+    font-size:0.9rem ;
+    font-weight: 500;
+}
+#entr_password{
+    min-width: 16rem;
+    padding: 10px 12px;
+    border-radius: 0.4rem;
+    border: 0.8px solid #96989b;
+}
+#crt_account{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    color: #364153; 
+}
+.click_me{
+    color: #4fbf8b;
+}
+.form_btn{
+    margin-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 108px;
+    padding-right: 108px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #4fbf8b;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/*sign up form styling*/
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    width:fit-content ;
+    padding: 48px 32px;
+    gap: 0.7rem;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    z-index: 1;
+    border-radius: 0.7rem;
+}
+.signup_hidden{
+    display: none;
+}
+#top_text2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 38px;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    color: #364153;
+    font-weight: 600;
+}
+.user_text2{
+    color: #4fbf8b;
+}
+.username{
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+}
+.username p{
+    font-size:0.9rem ;
+    font-weight: 500;
+}
+#entr_name{
+    min-width: 16rem;
+    padding: 10px 12px;
+    border-radius: 0.4rem;
+    border: 0.8px solid #96989b;
+}
+.email2{
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.email2 p{
+    font-size:0.9rem ;
+    font-weight: 500;
+}
+#email_id2{
+    min-width: 16rem;
+    padding: 10px 12px;
+    border-radius: 0.4rem;
+    border: 0.8px solid #96989b;
+}
+.password2{
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+}
+.password2 p{
+    font-size:0.9rem ;
+    font-weight: 500;
+}
+#entr_password2{
+    min-width: 16rem;
+    padding: 10px 12px;
+    border-radius: 0.4rem;
+    border: 0.8px solid #96989b;
+}
+#have_account{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    color: #364153; 
+}
+.click_me2{
+    color: #4fbf8b;
+}
+.form_btn2{
+    margin-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 108px;
+    padding-right: 108px;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #4fbf8b;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/*hero section styling*/
 .hero{
     padding-left: 64px;
     padding-right: 64px;
@@ -78,7 +281,10 @@
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  
+ #bg2_img{
+    display: none;
+ }  
+
 .heading {
     position: absolute;
     top: 50%;
@@ -375,7 +581,6 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-
 }
 .entr_email input{
     min-width: 30rem;
@@ -478,4 +683,14 @@
     padding: 1rem 0px;
 }
   
+@media (min-width: 992px) { 
 
+ }
+@media (max-width: 768px) { 
+    #bg_img{
+        display: none;
+    }
+    #bg2_img{
+        display: flex;
+    }
+}
